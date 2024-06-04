@@ -2,4 +2,40 @@
     width: 24px;
     height: 24px;
     background-image: url(./img/image.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    display: inline-block;
+}
+.lista-menu{
+    display:nome;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+.container-botao:checked .lista-menu{
+    display: block;
+}
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.lista-menu-titulo{
+    color: var(--laranja);
+}
+.lista-menu-item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+.lista-menu-link{
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+.container-botao{
+    display: none;
 }

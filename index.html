@@ -6,14 +6,40 @@
     <title>Alura Books</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
    <header class="cabecalho">
-    <span class="cabecalho-menu-hamburguer"></span>
-    <img src="img/image copy.png" alt="Logo da Alurabooks">
+    <div class="container">
+    <imput type="checkbox"  id="menu"  class="container-botao">
+        <label for="menu">
+            <span class="cabecalho-menu-hamburguer"></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu-titulo">Categorias</li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Programacao</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">front-end</a>
+            </li>
+            <li class="lista-menu-item">
+                    <a href="#" class="lista-menu-link">infraestrutura</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">business</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">design & UX</a>
+            </li>
+        </ul>
+    <img src="img/image copy.png" alt="Logo da Alurabooks" class="container-imagem">
     <a href="#"><img src="./img/image copy 2.png" alt="Meus favoritos"></a>
    <a href="#"><img src="./img/image copy 3.png"  alt="Sacola de compras"></a>
    <a href="#"><img src="./img/image copy 4.png"  alt="Meu perfil"></a>
+   </div>
 </header> 
 </body>
 </html>
