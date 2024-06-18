@@ -1,0 +1,6 @@
+.swiper-slide img{
+    width: 100%;
+}
+.swiper-buttom-prev, .swiper-buttom-next{
+    display: none;
+}
