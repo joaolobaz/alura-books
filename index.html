@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
+    <link rel="preconnect" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="carrossel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head >
+
 <body>
    <header class="cabecalho">
     <div class="container">
     <imput type="checkbox"  id="menu"  class="container-botao">
         <label for="menu">
-            <span class="cabecalho-menu-hamburguer"></span>
+            <span class="cabecalho-menu-hamburguer container-imagem"></span>
         </label>
         <ul class="lista-menu">
             <li class="lista-menu-titulo">Categorias</li>
@@ -33,28 +38,17 @@
             </li>
             <li class="lista-menu-item">
                 <a href="#" class="lista-menu-link">design & UX</a>
-            </li>
-        </ul>
+            </li></ul>
     <img src="img/image copy.png" alt="Logo da Alurabooks" class="container-imagem">
-    <a href="#"><img src="./img/image copy 2.png" alt="Meus favoritos"></a>
-   <a href="#"><img src="./img/image copy 3.png"  alt="Sacola de compras"></a>
-   <a href="#"><img src="./img/image copy 4.png"  alt="Meu perfil"></a>
+</div>
+<div class="container">
+    <a href="#"><img src="./img/image copy 2.png" alt="Meus favoritos" class="container-imagem"></a>
+   <a href="#"><img src="./img/image copy 3.png"  alt="Sacola de compras" class="container-imagem"></a>
+   <a href="#"><img src="./img/image copy 4.png"  alt="Meu perfil" class="container-imagem"></a>
    </div>
 </header> 
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.
 js"></script>
 <script>
 <div class="swiper">
-const swiper = new Swiper('.swiper', {
-spaceBetween: 10,
-slidesPerview: 3,
-pagination: {
-el: '.swiper-pagination',
-type: 'bullets',
-},
-</div>
-});
-</script>
-</body>
-</html>
