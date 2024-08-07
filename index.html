@@ -54,13 +54,60 @@
     <h2 class="banner-titulo">ja sabe por onde começar</section>h2>
     </h2>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.
-js"></script>
-<img src="./img/image copy 5.png" class="descricao-imagem">
-</div>
- </div> class="card-botoes">
- <ul class="botoes">
-    <li class="botoes-"
- </ul>
-</div>
+
+<section class="banner"
+    <k2 class="carrossel-titulo">Novos lançamentos</k2>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+    <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="card">
+        <div class="card-descricao">
+            <div class="descricao">
+                <h3 class="descricao-titulo">Talvez você também se interesse por ...</h3>
+                <h2 class="descricao-titulo-livro">Angular 11 e Firebase</h2>
+                <p class="descricao-titulo">contr</p>     
+               </div>
+    
+        </div>
+        <img src="./img/image copy 5.png" class="descricao-imagem">
+      </div>
+        <div class="card-botoes">
+            <ul class="botoes">
+                <li class="botoes-item"><img src="./img/image copy.png" alt="Favoritar livro"></li>
+                <li class="botoes-item"><img src="./img/image copy 3.png" alt="adicionar ao carrinho"></li>
+            </ul>
+            <a href="#" class="botoes-ancora">Saiba mais</a>
+        </div>
+      </div>
+        </section>
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+          });
+          </script>
+    </body>
+    
+    </html>
 
