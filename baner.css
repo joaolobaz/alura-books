@@ -1,0 +1,12 @@
+@media screen and (min-width: 1024px) {
+    .banner-titulo {
+    font-size: 36px;
+    
+    }
+    }
+    .baner-pesquisa{
+        width: 50%;
+    }
+    .baner-pesquisa: ::placeholder{
+        b
+    }
