@@ -9,9 +9,12 @@
 }
 body{
     background-color: var(--cor-de-fundo);
-    font-family: var(--font-principal);
-    font-size: 16px;
-    font-weight: 400;
+    --font-family: var(--font-principal);
+    --font-size: 16px;
+    --font-weight: 400;
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
 }
 h1{
     background-color: white;
