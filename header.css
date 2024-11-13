@@ -52,8 +52,29 @@
     .container-titulo-negrito {
         font-size: 700;
     }
-        .container-titulo {
-            display: none;
+        .opcoes {
+         display: flex;
         }
 
-}
+        .opcoes-item {
+            padding: 0 1em;
+            text-transform: uppercase;
+        }
+
+        .opcoes-link {
+            text-decoration: none;
+            color: var(--preto);
+        }
+    
+        .container-imagem-transparente {
+            display: none;
+        }
+    
+        .cabecalho-menu-hamburguer {
+            display: none;
+        }
+    
+        .opcoes-botao:checked~.lista-menu {
+            display: block;
+            width: auto;
+        }
